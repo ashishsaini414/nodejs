@@ -1,0 +1,39 @@
+Question-1 :- Installing node latest version and npm.
+
+Solution- we have to use 3 commands and with these commands "node and npm" will be installed.
+		1. curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
+		2. sudo apt-get install -y nodejs
+		
+Question-2 :- Read file asynchronously and synchronously.
+
+Solution:- Refer to code.
+
+Quesion-3:- Install dependencies and dev dependencies.
+
+Solution- For installing the dependencies we can use following command-
+		npm install <package name>  
+		
+	Example:- npm install express
+		
+	In case of installing dev dependencies, we have to add "--save-dev" in npm command. 
+	Example:- npm install nodemon --save-dev 
+		
+Question-4:- Customizing in package.json
+
+Solution:- First create a new package.json file by "npm init" command.
+
+Note:- "package.json is a file that contains information about the project's packages and dependencies. It also contains metadata for the 	project such as version number, author, and description."
+	  	   
+	   we can install and uninstall the dependencies by running the npm install/uninstall <package-name>.
+	   
+	   
+Question-5:- Creating module and import & export.
+
+solution:- Refer to code.
+
+Question-6:- Creating a http server.
+
+Solution:- Refer to code.
+
+	
+	    
